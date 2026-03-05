@@ -3,7 +3,7 @@
 int main() {
     int a = 5;
     int b = 10;
-    int risultato; // ERRORE: variabile non inizializzata
+    int risultato = 0; // ERRORE: variabile non inizializzata
 
     risultato = risultato + a + b; 
 
