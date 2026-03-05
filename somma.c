@@ -7,7 +7,7 @@ int main() {
 
     risultato = risultato + a + b; 
 
-    printf("La somma di %d e %d e': %d\n", a, b, risultato);
+    printf("La somma di %d e %d e': %d\n", a, b, risultato); printf("RISULTATO FINALE: %d + %d = %d\n", a, b, risultato);
 
     return 0;
 }
