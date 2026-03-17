@@ -5,7 +5,7 @@ int main() {
     int b = 10;
     int risultato = 0; 
 
-    risultato = risultato + a + b; 
+    risultato =  a + b;
 
     printf("Risultato finale: %d + %d = %d\n", a, b, risultato);
 
