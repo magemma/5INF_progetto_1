@@ -3,11 +3,11 @@
 int main() {
     int a = 5;
     int b = 10;
-    int risultato = 0; // ERRORE: variabile non inizializzata
+    int risultato = 0; 
 
-    risultato = a + b; 
+    risultato =  a + b;
 
-    printf("La somma di 5 e 10 e': %d\n" risultato);
+    printf("Risultato finale: %d + %d = %d\n", a, b, risultato);
 
     return 0;
 }
