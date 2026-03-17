@@ -5,9 +5,9 @@ int main() {
     int b = 10;
     int risultato = 0; // ERRORE: variabile non inizializzata
 
-    risultato = risultato + a + b; 
+    risultato = a + b; 
 
-    printf("La somma di %d e %d e': %d\n", a, b, risultato);
+    printf("La somma di 5 e 10 e': %d\n" risultato);
 
     return 0;
 }
